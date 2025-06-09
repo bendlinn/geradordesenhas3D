@@ -12,6 +12,6 @@
 }
 body{
     color: var(--branco);
-    background-color: #94B4C1;
+    background-color: var(--cor-de-fundo);
     font-family: var(--fonte);
 }
