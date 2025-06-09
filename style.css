@@ -5,5 +5,13 @@
     --fundo-senha: #547792;
     --fundo-texto: #213448;
     --borda: #B2C6D5;
-    --embed: 'Embed code', Lobster static;
+    --fonte: 'Lobster static', Sans-serif;
+}
+*{
+    font-weight: 400;
+}
+body{
+    color: var(--branco);
+    background-color: #94B4C1;
+    font-family: var(--fonte);
 }
