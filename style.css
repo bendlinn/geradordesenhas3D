@@ -15,3 +15,38 @@ body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte);
 }
+.titulo_principal{
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo_secundario{
+    font-size: 32px;
+}
+.conteudo_titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+.cadeado_conteudo{
+    width: 100px;
+}
+.conteudo_senha{
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    padding: 32px;
+    border-bottom: 6px solid var(--borda);
+    font-size: 30px;
+}
+#campo_senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color:var(--branco);
+    font-size: 40px;
+    width: 70%;
+}
+#campo_senha:focus{
+    outline: none;
+}
+.conteudo_senhas{
+    max-width: 1200px;
+    margin: 0 auto;
+}
