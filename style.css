@@ -75,3 +75,31 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+.barra {
+ background-color:#ffffff
+    height: 30px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    transition: width 0.3s ease;
+}
+
+.fraca {
+    width: 25%;
+    background-color: #e71b32;
+}
+
+.media {
+    width: 50%;
+    background-color: #faf408;
+}
+
+.forte {
+    width: 100%;
+    background-color: #00ff85;
+}
